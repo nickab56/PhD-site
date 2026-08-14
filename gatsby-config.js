@@ -1,75 +1,79 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
+    siteUrl: `https://nickabegg.com/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Nick Abegg',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Nick Abegg | Social Science Researcher`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `PhD student researching sociotechnical interactions of privacy, with a focus on vulnerable and marginalized groups.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: ``,
     // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
+    github: `https://github.com/nickab56`,
     // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
+    linkedin: `https://www.linkedin.com/in/nick-abegg-392480230/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a PhD student in Informatics Security (Privacy) at Indiana University Bloomington, with a minor in Psychology. My research examines sociotechnical interactions of privacy, with a particular focus on the privacy of vulnerable and marginalized groups. I use social science methods including surveys, qualitative interviews, and ethnography alongside technical and quantitative approaches to understand how people experience, negotiate, and respond to privacy issues.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'American Attitudes Toward Parental Digital Sharing',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Research investigating American attitudes toward parental digital sharing (“sharenting”) and proposed policy and technical interventions to enhance children’s privacy.',
+        link: '',
       },
       {
-        name: 'ExtensionKit',
+        name: 'Dyad Interviews of Parent-Child Digital Sharing',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
+          'Qualitative research examining how digital parental sharing is conducted, negotiated, and understood by parents and children.',
+        link: '',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Teenagers’ Felt Experiences of Harm in Video Games',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Research examining teenagers’ felt experiences of harm in video games through sociotechnical and privacy-oriented perspectives.',
+        link: `https://www.researchgate.net/publication/410160096_Normalizing_Harm_Through_Teenagers'_Everyday_Experiences_with_Video_Games`,
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Research Assistant — Indiana University Bloomington',
+        description:
+          '2024 – Present | Privacy research on parental digital sharing, children’s privacy, and sociotechnical interactions. Methods include large-scale survey design, factor analysis, qualitative interviews, and thematic analysis.',
+        link: '#',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'NSF REU — Pennsylvania State University',
+        description:
+          'May 2023 – Aug 2023 | Machine learning and cybersecurity research on automated authorship obfuscation using psycho-linguistic information theory and natural language processing.',
+        link: '#',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Computer Science Head Tutor — Saint Vincent College',
+        description:
+          '2022 – 2024 | Managed undergraduate tutors, coordinated with professors, and primarily tutored C++ and Data Structures.',
+        link: '#',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Research Methods',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Large-scale survey design, factor analysis, qualitative interviews, thematic analysis, ethnography',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Programming',
+        description:
+          'Python, R, C++',
       },
       {
-        name: 'Other',
+        name: 'Research Tools',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Qualtrics, NVivo, RStudio, LaTeX, Git, Visual Studio Code',
       },
     ],
   },
@@ -187,8 +191,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `Nick Abegg`,
+        short_name: `Nick Abegg`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
