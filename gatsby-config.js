@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nick-abegg-392480230/`,
     // Content of the About Me section
-    about: `I am a PhD student in Informatics Security (Privacy) at Indiana University Bloomington, with a minor in Psychology. My research examines sociotechnical interactions of privacy, with a particular focus on the privacy of vulnerable and marginalized groups. I use social science methods including surveys, qualitative interviews, and ethnography alongside technical and quantitative approaches to understand how people experience, negotiate, and respond to privacy issues.`,
+    about: `I am a PhD student in Informatics Security (Privacy) at Indiana University Bloomington, with a minor in Psychology. Website is under development so more to come :)`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -33,12 +33,12 @@ module.exports = {
       {
         name: 'Teenagers’ Felt Experiences of Harm in Video Games',
         description:
-          'Research examining teenagers’ felt experiences of harm in video games through sociotechnical and privacy-oriented perspectives.',
+          'Research examining teenagers’ felt experiences of harm in video games.',
         link: `https://www.researchgate.net/publication/410160096_Normalizing_Harm_Through_Teenagers'_Everyday_Experiences_with_Video_Games`,
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
+/*     experience: [
       {
         name: 'Research Assistant — Indiana University Bloomington',
         description:
@@ -57,9 +57,10 @@ module.exports = {
           '2022 – 2024 | Managed undergraduate tutors, coordinated with professors, and primarily tutored C++ and Data Structures.',
         link: '#',
       },
-    ],
+    ], */
+      experience: [],
     // Optional: List your skills, they must have `name` and `description`.
-    skills: [
+/*     skills: [
       {
         name: 'Research Methods',
         description:
@@ -75,7 +76,8 @@ module.exports = {
         description:
           'Qualtrics, NVivo, RStudio, LaTeX, Git, Visual Studio Code',
       },
-    ],
+    ], */
+      skills: [],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
