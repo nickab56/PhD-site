@@ -12,7 +12,7 @@ const classes = {
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-[#990000]',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
