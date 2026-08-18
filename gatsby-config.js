@@ -174,7 +174,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Your Site's RSS Feed",
+            title: `Nick Abegg — Research`,
           },
         ],
       },
@@ -191,8 +191,8 @@ module.exports = {
         name: `Nick Abegg`,
         short_name: `Nick Abegg`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        background_color: `#ffffff`,
+        theme_color: `#990000`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },

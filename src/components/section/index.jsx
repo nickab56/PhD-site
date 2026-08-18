@@ -13,7 +13,17 @@ const Section = ({ title, children }) => {
     <div className={classes.wrapper}>
       <div className={classes.title}>
         <h2 className={classes.heading}>{title}</h2>
+
+        <div
+          style={{
+            width: '36px',
+            height: '2px',
+            backgroundColor: '#990000',
+            marginTop: '10px',
+          }}
+        />
       </div>
+
       <div className={classes.content}>{children}</div>
     </div>
   );
