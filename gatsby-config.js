@@ -22,19 +22,13 @@ module.exports = {
       {
         name: 'American Attitudes Toward Parental Digital Sharing',
         description:
-          'Research investigating American attitudes toward parental digital sharing (“sharenting”) and proposed policy and technical interventions to enhance children’s privacy.',
-        link: '',
+          'A large-scale survey examining American attitudes toward parental digital sharing (“sharenting”) and proposed policy and technical interventions to enhance children’s privacy.',
+        link: '#',
       },
       {
-        name: 'Dyad Interviews of Parent-Child Digital Sharing',
+        name: 'Normalizing Harm Through Teenagers’ Everyday Experiences with Video Games',
         description:
-          'Qualitative research examining how digital parental sharing is conducted, negotiated, and understood by parents and children.',
-        link: '',
-      },
-      {
-        name: 'Teenagers’ Felt Experiences of Harm in Video Games',
-        description:
-          'Research examining teenagers’ felt experiences of harm in video games.',
+          'Research examining teenagers’ everyday experiences with harm in video games.',
         link: `https://www.researchgate.net/publication/410160096_Normalizing_Harm_Through_Teenagers'_Everyday_Experiences_with_Video_Games`,
       },
     ],

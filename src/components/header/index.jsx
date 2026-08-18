@@ -50,6 +50,21 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
+          <li className={classes.item}>
+            <Link className={classes.link} to="/publications">
+              Publications
+            </Link>
+          </li>
+          <li className={classes.item}>
+            <a
+              className={classes.link}
+              href="/files/Nick-Abegg-CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV
+            </a>
+          </li>
           {scholar && (
             <li className={classes.item}>
               <a className={classes.link} href={scholar}>
