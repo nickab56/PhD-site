@@ -55,6 +55,7 @@ export const pageQuery = graphql`
         description
         about
         author
+        scholar
         github
         linkedin
         projects {

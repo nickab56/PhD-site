@@ -17,6 +17,7 @@ const classes = {
 
 const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
+  const scholar = get(metadata, 'scholar', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
@@ -46,6 +47,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 href={`https://twitter.com/${twitter}`}
               >
                 Twitter
+              </a>
+            </li>
+          )}
+          {scholar && (
+            <li className={classes.item}>
+              <a className={classes.link} href={scholar}>
+                Google Scholar
               </a>
             </li>
           )}

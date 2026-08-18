@@ -10,6 +10,7 @@ module.exports = {
     description: `PhD student researching sociotechnical interactions of privacy, with a focus on vulnerable and marginalized groups.`,
     // Optional: Twitter account handle
     author: ``,
+    scholar: `https://scholar.google.com/citations?user=mQs0Ru4AAAAJ&hl=en`,
     // Optional: Github account URL
     github: `https://github.com/nickab56`,
     // Optional: LinkedIn account URL
