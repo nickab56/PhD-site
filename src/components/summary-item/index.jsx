@@ -5,10 +5,18 @@ const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
+  status: 'text-sm font-medium mt-1',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false }) => {
+const SummaryItem = ({
+  name,
+  description,
+  status = false,
+  link = false,
+  internal = false,
+}) => {
   let linkContent;
+
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
   } else {
@@ -19,12 +27,19 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
     <div className={classes.wrapper}>
       <h3
         className={`${classes.name} ${
-          link ? 'hover:underline hover:text-black' : ''
+          link ? 'hover:underline hover:text-[#990000]' : ''
         }`}
       >
         {link ? linkContent : name}
       </h3>
+
       <p className={classes.description}>{description}</p>
+
+      {status && (
+        <p className={classes.status} style={{ color: '#990000' }}>
+          {status}
+        </p>
+      )}
     </div>
   );
 };

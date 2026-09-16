@@ -39,29 +39,32 @@ const PublicationsPage = ({ data }) => {
 
             <div className="mb-8">
               <p>
-                <strong className="text-gray-900">Nick Abegg</strong>, Ritika
-                Gairola, Christena Nippert-Eng, and Apu Kapadia.{' '}
-                <a
-                  href="https://www.researchgate.net/publication/410160096_Normalizing_Harm_Through_Teenagers'_Everyday_Experiences_with_Video_Games"
-                  className="font-semibold text-gray-900 hover:underline"
-                >
-                  “Normalizing Harm Through Teenagers’ Everyday Experiences
-                  with Video Games.”
-                </a>
+                <strong className="text-gray-900">Nick Abegg</strong>, Chris McCarthy, Sabila
+                Nawshin, Mary Jean Amon, and
+                Apu Kapadia.{' '}
+                <span className="font-semibold text-gray-900">
+                  “American Attitudes Toward Parental Digital Sharing and
+                  Proposed Policy and Technical Interventions.”
+                </span>{' '}
+                <em>Submitted to ACM CHI 2027; under review.</em>
               </p>
             </div>
 
             <div className="mb-8">
               <p>
-                <strong className="text-gray-900">Nick Abegg</strong>, Sabila
-                Nawshin, Aneka Williams, Chris McCarthy, Mary Jean Amon, and
-                Apu Kapadia.{' '}
-                <span className="font-semibold text-gray-900">
-                  “American Attitudes Toward Parental Digital Sharing and
-                  Proposed Policy and Technical Interventions.”
-                </span>
+                <strong className="text-gray-900">Nick Abegg</strong>, Ritika
+                Gairola, Christena Nippert-Eng, and Apu Kapadia.{' '}
+                <a
+                  href="https://www.researchgate.net/publication/410160096_Normalizing_Harm_Through_Teenagers'_Everyday_Experiences_with_Video_Games"
+                  className="font-semibold text-gray-900 hover:underline hover:text-[#990000]"
+                >
+                  “Normalizing Harm Through Teenagers’ Everyday Experiences
+                  with Video Games.”
+                </a>{' '}
+                <em>ACM CHI PLAY 2026. Accepted; forthcoming.</em>
               </p>
             </div>
+
           </section>
 
           {/* Preprints */}

@@ -16,19 +16,21 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nick-abegg-392480230/`,
     // Content of the About Me section
-    about: `I am a PhD student in Informatics Security (Privacy) at Indiana University Bloomington, with a minor in Psychology. Website is under development so more to come :)`,
+    about: `PhD researcher studying privacy, technology, and human behavior using mixed-methods social science. Experience designing large-scale surveys and qualitative studies, analyzing quantitative and interview data, and translating findings into implications for policy and technology design. Background in computer science. Minoring in psychology`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'American Attitudes Toward Parental Digital Sharing',
         description:
           'A large-scale survey examining American attitudes toward parental digital sharing (“sharenting”) and proposed policy and technical interventions to enhance children’s privacy.',
-        link: '#',
+        status: 'Submitted to ACM CHI 2027 · Under review',
+        link: '',
       },
       {
         name: 'Normalizing Harm Through Teenagers’ Everyday Experiences with Video Games',
         description:
           'Research examining teenagers’ everyday experiences with harm in video games.',
+        status: 'ACM CHI PLAY 2026 · Accepted · Forthcoming',
         link: `https://www.researchgate.net/publication/410160096_Normalizing_Harm_Through_Teenagers'_Everyday_Experiences_with_Video_Games`,
       },
     ],
