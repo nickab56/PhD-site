@@ -1,7 +1,39 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
-import React from 'react';
+import React, { useState } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+
+const ContactLink = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleContact = async () => {
+    const user = ['njabegg'];
+    const domain = ['iu', 'edu'].join('.');
+    const email = `${user.join('')}@${domain}`;
+
+    try {
+      await navigator.clipboard.writeText(email);
+      setCopied(true);
+
+      setTimeout(() => {
+        setCopied(false);
+      }, 2500);
+    } catch (error) {
+      console.error('Failed to copy email:', error);
+    }
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={handleContact}
+      className="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-[#990000] uppercase tracking-wider"
+      aria-label="Copy Nick Abegg's email address"
+    >
+      {copied ? 'Copied Email @!' : 'Contact'}
+    </button>
+  );
+};
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -83,6 +115,9 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </Link>
             </li>
           )}
+          <li className={classes.item}>
+            <ContactLink />
+          </li>
         </ul>
       </div>
     </div>
