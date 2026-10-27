@@ -30,14 +30,23 @@ const PublicationsPage = ({ data }) => {
             </h1>
 
             <p className="text-sm text-gray-500 italic mb-8">
-              Peer-reviewed papers and conference proceedings
+              Conference papers, accepted publications, and manuscripts under review
             </p>
 
             <h2 className="text-xl font-semibold mb-5" style={{ color: '#990000' }}>
-              2026
+              2027
             </h2>
-
             <div className="mb-8">
+              <p>
+                Leigh Levinson, <strong className="text-gray-900">Nick Abegg</strong>, and Christena Nippert-Eng.{' '}
+                <span className="font-semibold text-gray-900">
+                  “Regulating COPPA in the Spirit of Children’s Privacy.”
+                </span>{' '}
+                <em>Submitted to ACM FAccT 2027; under review.</em>
+              </p>
+            </div>
+
+             <div className="mb-8">
               <p>
                 <strong className="text-gray-900">Nick Abegg</strong>, Chris McCarthy, Sabila
                 Nawshin, Mary Jean Amon, and
@@ -49,6 +58,10 @@ const PublicationsPage = ({ data }) => {
                 <em>Submitted to ACM CHI 2027; under review.</em>
               </p>
             </div>
+
+            <h2 className="text-xl font-semibold mb-5" style={{ color: '#990000' }}>
+              2026
+            </h2>
 
             <div className="mb-8">
               <p>

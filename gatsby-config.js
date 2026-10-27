@@ -20,6 +20,13 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Regulating COPPA in the Spirit of Children\'s Privacy',
+        description:
+          'Qualitative interviews with COPPA Safe Harbor organizations examining how children’s privacy regulations are enforced and how the accessibility and comprehensibility of privacy policies are considered during certification.',
+        status: 'Submitted to ACM FAccT 2027 · Under review',
+        link: '',
+      },
+      {
         name: 'American Attitudes Toward Parental Digital Sharing',
         description:
           'A large-scale survey examining American attitudes toward parental digital sharing (“sharenting”) and proposed policy and technical interventions to enhance children’s privacy.',
